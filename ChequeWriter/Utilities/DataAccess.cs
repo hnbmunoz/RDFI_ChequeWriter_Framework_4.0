@@ -17,8 +17,6 @@ namespace ChequeWriter.Utilities
         SqlParameter picture;
         MemoryStream ms = new MemoryStream();
 
-        //string cnstring = "";
-
         public DataTable getDatatable(string cmdtxt, string cnstring, CommandType cmdType, SqlParameter[] param = null)
         {
             try
@@ -105,8 +103,7 @@ namespace ChequeWriter.Utilities
                 throw new Exception(ex.Message);
             }
             SqlConnection connection = new SqlConnection(cnstring);
-            string sql = cmdtxt;
-            //
+            string sql = cmdtxt;            
             cmd.Connection = connection;
             cmd.CommandText = sql;
             cmd.CommandType = cmdType;

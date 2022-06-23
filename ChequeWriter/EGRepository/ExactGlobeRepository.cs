@@ -34,7 +34,6 @@ namespace ChequeWriter.EGRepository
         }
         public String getCompanyNamebyCode(string drpdownvalue)
         {
-
             string query = "Select bedrnm from bedryf";
             string companyname = "";
             maindt = dataaccess.getDatatable(query, conn.cstring(drpdownvalue), CommandType.Text);
@@ -44,7 +43,6 @@ namespace ChequeWriter.EGRepository
                 companyname = dr["bedrnm"].ToString();
             }
             return companyname;
-
         }
 
         public ChequeDto getChequeData(string drpDownValue, string chkNumber, string bankPolicy)
@@ -67,9 +65,7 @@ namespace ChequeWriter.EGRepository
                 dto.chequeAmount = utilities.CurrencyFormat(Convert.ToDecimal(result.Rows[0]["AmountDC"].ToString()));
                 dto.chequePayee = " ** " + result.Rows[0]["OffsetName"].ToString() + " ** ";
             }
-
             return dto;
-
         }
 
 
