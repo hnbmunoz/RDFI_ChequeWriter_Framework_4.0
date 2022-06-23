@@ -208,8 +208,7 @@ namespace ChequeWriter
             hidQueryDate.Visible = false;
             hidQueryAmount.Visible = false;
             hidQueryWords.Visible = false;
-            hidQueryPayee.Visible = false;
-            
+            hidQueryPayee.Visible = false;            
         }
 
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)

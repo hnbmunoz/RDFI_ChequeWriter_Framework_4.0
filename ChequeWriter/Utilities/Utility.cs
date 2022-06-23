@@ -15,7 +15,6 @@ namespace ChequeWriter.Utilities
 
             switch (dateValue.Month.ToString())
             {
-
                 case "01":
                 case "1":
                     monthCut = "January";
@@ -61,7 +60,6 @@ namespace ChequeWriter.Utilities
                 default:
                     monthCut = "December";
                     break;
-
             }
             return monthCut + " " + dayCut + "," + " " + yearCut;
         }
