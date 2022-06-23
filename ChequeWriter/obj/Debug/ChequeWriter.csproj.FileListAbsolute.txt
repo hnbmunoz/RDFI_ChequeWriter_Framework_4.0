@@ -1,0 +1,8 @@
+D:\Projects\CodePlayGround\GitHubProjects\RDFI_CodeReview\winforms(netframework)\ChequeWriter\ChequeWriter\bin\Debug\ChequeWriter.exe
+D:\Projects\CodePlayGround\GitHubProjects\RDFI_CodeReview\winforms(netframework)\ChequeWriter\ChequeWriter\bin\Debug\ChequeWriter.pdb
+D:\Projects\CodePlayGround\GitHubProjects\RDFI_CodeReview\winforms(netframework)\ChequeWriter\ChequeWriter\obj\Debug\ChequeWriter.MainUI.resources
+D:\Projects\CodePlayGround\GitHubProjects\RDFI_CodeReview\winforms(netframework)\ChequeWriter\ChequeWriter\obj\Debug\ChequeWriter.Properties.Resources.resources
+D:\Projects\CodePlayGround\GitHubProjects\RDFI_CodeReview\winforms(netframework)\ChequeWriter\ChequeWriter\obj\Debug\ChequeWriter.csproj.GenerateResource.cache
+D:\Projects\CodePlayGround\GitHubProjects\RDFI_CodeReview\winforms(netframework)\ChequeWriter\ChequeWriter\obj\Debug\ChequeWriter.csproj.CoreCompileInputs.cache
+D:\Projects\CodePlayGround\GitHubProjects\RDFI_CodeReview\winforms(netframework)\ChequeWriter\ChequeWriter\obj\Debug\ChequeWriter.exe
+D:\Projects\CodePlayGround\GitHubProjects\RDFI_CodeReview\winforms(netframework)\ChequeWriter\ChequeWriter\obj\Debug\ChequeWriter.pdb
